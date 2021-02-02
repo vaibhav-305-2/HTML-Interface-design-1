@@ -1,0 +1,146 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*--------------------------Header----------------------------*/
+header{
+    background: url("Images/menu_background.jpg") no-repeat center center/cover;
+    /*height: 642px;*/
+}
+
+/*_______________Menubar______________*/
+#menubar{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0,0, 0.5);
+    top: 0px;
+    justify-content: space-between;
+    padding: 1px 20px;
+}
+#component1
+{
+    display: flex;
+    flex-wrap: wrap;
+    /*border: 2px solid white;*/
+    margin: 0px 5px;
+    justify-content: center;
+    padding: 10px 10px;
+}
+#menulist{
+    display: flex;
+    /*border: 2px solid white;*/
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    padding:0px;
+    flex-wrap: wrap;
+}
+#menulist li{
+    color: white;
+    list-style: none;
+    margin: auto 5px;
+}
+#component1 img{
+    width: 70px;
+    height: 70px;
+    margin: 5px 1px;
+    margin-right: 0px;
+}
+#menulist li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 10px 10px;
+}
+#menulist li a:hover{
+    background-color: rgba(0, 0,0, 0.7);
+    border-radius: 20px;
+}
+#component2{
+    display: flex;
+    /*border: 2px solid white;*/
+    align-items: center;
+    padding: 0px 5px;
+    margin: 0px 5px;
+    /*padding: 0px 28px;
+    margin: 0px 27px;*/
+}
+#component2 button{
+    background-color: rgba(0, 0,0, 0.7);
+    color: white;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+#component2 button:hover{
+    background-color: rgba(255, 255,255, 0.8);
+    color: black;
+}
+/*_______________Sub Head_________________*/
+#subhead{
+    display: flex;
+    flex-direction: column;
+    padding:74px 50px;
+    justify-content: center;
+    align-items: center;
+}
+#subhead h1{
+    color: white;
+    margin: 5px 5px;
+}
+#subhead p{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+#subhead button{
+    color: white;
+    background-color: rgba(0, 0,0, 0.5);
+    font-size: 25px;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    border-radius: 15px;
+}
+#subhead button:hover{
+    background-color: rgba(248, 78, 48, 0.8);
+}
+/*-------------------Services secn--------------------------*/
+#serviceheading{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+#serviceSecn{
+    display: flex;
+    flex-direction: row;
+    /*border: 2px solid black;*/
+    padding: 20px 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#serviceSecn img{
+    width: 270px;
+    height: 200px;
+}
+.services{
+    display: flex;
+    width: 425px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(250, 237, 235);
+    border: 2px solid brown;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    border-radius: 15px;
+}
+/*--------------------------------------Clients Section---------------------------------------*/
